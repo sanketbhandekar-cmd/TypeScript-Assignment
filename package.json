@@ -1,0 +1,23 @@
+{
+  "name": "organization-management-system",
+  "version": "1.0.0",
+  "description": "TypeScript OOP based Organization Management System",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts",
+    "start:js": "node dist/index.js"
+  },
+  "keywords": [
+    "typescript",
+    "oops",
+    "organization-management"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}
